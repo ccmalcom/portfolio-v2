@@ -1,5 +1,5 @@
 'use client'
-import Typewriter from './typewriter'
+import Typewriter from '@/app/ui/typewriter'
 import { useState } from 'react'
 
 export default function Home() {
