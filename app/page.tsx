@@ -1,26 +1,61 @@
-'use client'
-import Typewriter from '@/app/ui/typewriter'
-import { useState } from 'react'
+import About from '@/app/ui/about'
+import Experience from './ui/experience'
+import Work from './ui/work'
+import Contact from './ui/contact'
 
 export default function Home() {
-  const [isLoaded, setIsLoaded] = useState(false)
-  if (isLoaded) {
-    console.log('isLoaded');
-  }
+
 
   return (
-    
     <div className=''>
-      {isLoaded ? 
-      <p className='text-4xl ease'>test</p>
-      : 
-      <>
-      <link rel="stylesheet" href="https://rsms.me/inter/inter.css"/>
-      <Typewriter setIsLoaded={setIsLoaded}/>
-      </>
-      }
-    
-
+      <p className='text-xl ease'>This is where main content will be</p>
+      <About />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <Experience />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <Work />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <Contact />
     </div>
   )
 }
