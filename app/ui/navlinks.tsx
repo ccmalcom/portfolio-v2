@@ -4,13 +4,13 @@ export default function NavLinks() {
         <div>
             <ul>
                 <li>
-                    <Link href="#about">About</Link>
-                </li>
-                <li>
-                    <Link href="#experience">Experience</Link>
+                    <Link href="#skills">Skills</Link>
                 </li>
                 <li>
                     <Link href="#work">Work</Link>
+                </li>
+                <li>
+                    <Link href="#about">About</Link>
                 </li>
                 <li>
                     <Link href="#contact">Contact</Link>

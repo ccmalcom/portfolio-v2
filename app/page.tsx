@@ -1,7 +1,8 @@
 import About from '@/app/ui/about'
-import Experience from './ui/experience'
+import Skills from './ui/skills'
 import Work from './ui/work'
 import Contact from './ui/contact'
+import Hero from './ui/hero'
 
 export default function Home() {
 
@@ -9,51 +10,14 @@ export default function Home() {
   return (
     <div className=''>
       <p className='text-xl ease'>This is where main content will be</p>
-      <About />
       <br />
+      <Hero />
       <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <Experience />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      <Skills />
       <br />
       <Work />
       <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      <About />
       <br />
       <Contact />
     </div>
